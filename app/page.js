@@ -61,7 +61,7 @@ export default function Home() {
       <section className="features">
         <div className="feature"><Heart /><h3>Diseño romántico</h3><p>Arreglos suaves, delicados y perfectos para regalar en graduaciones.</p></div>
         <div className="feature"><Gift /><h3>Personalizable</h3><p>Puedes elegir estilo, tamaño y mensaje especial para la persona graduada.</p></div>
-        <div className="feature"><MapPin /><h3>Ideal para entrega</h3><p>Perfecto para recoger o coordinar entrega el día del evento.</p></div>
+      <div className="feature"><MapPin /><h3>Entrega coordinada</h3><p>Coordinamos contigo el horario y lugar ideal para entregar tu arreglo de manera elegante y puntual.</p></div>
       </section>
 
       <section id="catalogo" className="catalog">
