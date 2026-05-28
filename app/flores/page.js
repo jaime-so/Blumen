@@ -24,7 +24,7 @@ const flowers = [
     price: "$2,220 MXN",
     image: "/WhatsApp Image 2026-05-27 at 17.20.28 (3).jpeg",
     description: "Rosas con tulipanes blancos, suave y elegante.",
-    tier: "premium"
+    tier: "signature"
   },
   {
     name: "Velvet Romance",
