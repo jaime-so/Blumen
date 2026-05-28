@@ -1,3 +1,4 @@
+"use client";
 const whatsappNumber = "528182035437";
 
 const flowers = [
