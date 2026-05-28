@@ -57,7 +57,7 @@ export default function FloresPage() {
         fontWeight: "600",
         fontSize: "16px"
       }}
-      ← Volver a Blumen
+  {"<- Volver a Blumen"}
     </a>
 
 
