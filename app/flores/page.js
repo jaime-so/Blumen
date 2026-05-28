@@ -57,11 +57,10 @@ export default function FloresPage() {
         fontWeight: "600",
         fontSize: "16px"
       }}
-    >
       ← Volver a Blumen
     </a>
 
-    <div style={{
+
       <div style={{
         textAlign: "center",
         marginBottom: "60px"
