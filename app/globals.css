@@ -59,7 +59,18 @@ a { text-decoration: none; }
 .cta { margin: 0 auto 70px; max-width: 900px; background: var(--olive); border-radius: 36px; padding: 56px 7%; text-align: center; }
 .cta p { color: var(--muted); font-size: 18px; line-height: 1.7; max-width: 650px; margin: 18px auto 30px; }
 footer { text-align: center; padding: 32px; color: var(--muted); background: white; border-top: 1px solid #e7e1cf; }
+.premiumSection {
+  padding: 120px 24px;
+  text-align: center;
+  background: #f7f4f2;
+}
 
+.premiumSection .button {
+  margin-top: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 850px) {
   .header { align-items: flex-start; gap: 16px; }
   .header .button { display: none; }
