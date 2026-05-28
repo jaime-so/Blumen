@@ -129,20 +129,28 @@ export default function FloresPage() {
             }}
           >
             <div style={{
-              height: "360px",
-              overflow: "hidden",
-              background: "#efe6e4"
-            }}>
-             <img
+  height: "360px",
+  overflow: "hidden",
+  background: "#efe6e4",
+  position: "relative"
+}}>
+            <img
   src={flower.image}
   alt={flower.name}
   onClick={() => setSelectedFlower(flower)}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.transform = "scale(1.06)";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.transform = "scale(1)";
+  }}
   style={{
     width: "100%",
     height: "100%",
     objectFit: "cover",
     display: "block",
-    cursor: "zoom-in"
+    cursor: "zoom-in",
+    transition: "transform 0.5s ease"
   }}
 />
             </div>
