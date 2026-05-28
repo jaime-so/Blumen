@@ -8,49 +8,51 @@ const flowers = [
   {
     name: "Orchid Lumière",
     price: "$2,961 MXN",
-    image: "/WhatsApp Image 2026-05-27 at 17.20.28 (5).jpeg",
+    images: [
+  "/WhatsApp Image 2026-05-27 at 17.20.28 (5).jpeg"
+],
     description: "Arreglo premium con rosas, anémona y orquídeas.",
     tier: "signature"
   },
   {
     name: "Scarlet Tulipe",
     price: "$2,790 MXN",
-    image: "/WhatsApp Image 2026-05-27 at 17.20.28 (2).jpeg",
+    images: ["/WhatsApp Image 2026-05-27 at 17.20.28 (2).jpeg"],
     description: "Rosas rojas con tulipanes rosas, intenso y especial.",
     tier: "signature"
   },
   {
     name: "Maison Tulipe",
     price: "$2,220 MXN",
-    image: "/WhatsApp Image 2026-05-27 at 17.20.28 (3).jpeg",
+    images: ["/WhatsApp Image 2026-05-27 at 17.20.28 (3).jpeg"],
     description: "Rosas con tulipanes blancos, suave y elegante.",
     tier: "signature"
   },
   {
     name: "Velvet Romance",
     price: "$2,100 MXN",
-    image: "/WhatsApp Image 2026-05-27 at 17.20.28 (2).jpeg",
+    images: ["/WhatsApp Image 2026-05-27 at 17.20.28 (2).jpeg"],
     description: "Rosas rojas con lisianthus, romántico y delicado.",
     tier: "classic"
   },
   {
     name: "Ivory Rosé",
     price: "$2,091 MXN",
-    image: "/WhatsApp Image 2026-05-27 at 17.20.28 (4).jpeg",
+    images: ["/WhatsApp Image 2026-05-27 at 17.20.28 (4).jpeg"],
     description: "Rosas rosas y blancas en una combinación limpia.",
     tier: "classic"
   },
   {
     name: "Ivory Lisianthus",
     price: "$1,971 MXN",
-    image: "/WhatsApp Image 2026-05-27 at 17.20.28.jpeg",
+    images: ["/WhatsApp Image 2026-05-27 at 17.20.28.jpeg"],
     description: "Rosas blancas con lisianthus, fino y claro.",
     tier: "classic"
   },
   {
     name: "Rosé Élégance",
     price: "$1,140 MXN",
-    image: "/WhatsApp Image 2026-05-27 at 17.20.28 (1).jpeg",
+    images: ["/WhatsApp Image 2026-05-27 at 17.20.28 (1).jpeg"],
     description: "Ramo elegante de rosas rosas, delicado y limpio.",
     tier: "classic"
   }
@@ -115,7 +117,7 @@ function FlowerCard({ flower, setSelectedFlower }) {
         )}
 
         <img
-          src={flower.image}
+         src={flower.images[0]}
           alt={flower.name}
           onClick={() => setSelectedFlower(flower)}
           onMouseEnter={(e) => {
