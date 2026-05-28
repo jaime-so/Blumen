@@ -39,7 +39,29 @@ export default function FloresPage() {
       padding: "60px 20px",
       fontFamily: "Arial"
     }}>
-      
+      return (
+  <main style={{
+    background: "#faf7f4",
+    minHeight: "100vh",
+    padding: "60px 20px",
+    fontFamily: "Arial"
+  }}>
+
+    <a
+      href="/"
+      style={{
+        display: "inline-block",
+        marginBottom: "30px",
+        color: "#8B3A4A",
+        textDecoration: "none",
+        fontWeight: "600",
+        fontSize: "16px"
+      }}
+    >
+      ← Volver a Blumen
+    </a>
+
+    <div style={{
       <div style={{
         textAlign: "center",
         marginBottom: "60px"
