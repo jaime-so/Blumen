@@ -44,7 +44,29 @@ export default function Home() {
           <div className="pill"><Sparkles size={16} /> Flores para graduaciones</div>
           <h2>Celebra su gran día con flores que se sienten especiales.</h2>
           <p>En Blumen creamos ramos y arreglos florales para graduaciones, regalos y momentos especiales que merecen sentirse inolvidables.</p>
-          <div className="actions">
+         <div className="actions">
+  <a className="button" href={whatsappLink} target="_blank">
+    <MessageCircle size={20} /> Hacer pedido
+  </a>
+
+  <a
+    className="button secondary"
+    href="/flores"
+    style={{
+      backgroundColor: "#8B3A4A",
+      color: "white",
+      padding: "14px 28px",
+      borderRadius: "14px",
+      textDecoration: "none",
+      fontWeight: "600",
+      display: "inline-block",
+      marginLeft: "12px",
+      boxShadow: "0 4px 14px rgba(0,0,0,0.15)"
+    }}
+  >
+    Ver colección
+  </a>
+</div>
             <a className="button" href={whatsappLink} target="_blank"><MessageCircle size={20} /> Hacer pedido</a>
         <a
   className="button secondary"
@@ -104,25 +126,7 @@ export default function Home() {
         <p>Mándanos mensaje por WhatsApp, dinos la fecha de graduación, estilo que te gusta y presupuesto. Nosotros te ayudamos a elegir el arreglo perfecto.</p>
         <a className="button" href={whatsappLink} target="_blank"><MessageCircle size={20} /> WhatsApp +52 818 203 5437</a>
       </section>
-<section className="cta">
 
-  <a
-    href="/flores"
-    style={{
-      backgroundColor: "#111",
-      color: "white",
-      padding: "14px 28px",
-      borderRadius: "14px",
-      textDecoration: "none",
-      fontWeight: "600",
-      display: "inline-block",
-      marginTop: "20px"
-    }}
-  >
-    Ver catálogo
-  </a>
-
-</section>
 
       <footer>Blumen · Flores para graduaciones · Pedidos por WhatsApp</footer>
     </main>
