@@ -121,12 +121,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="cta">
-        <h2>Haz tu pedido con tiempo</h2>
-        <p>Mándanos mensaje por WhatsApp, dinos la fecha de graduación, estilo que te gusta y presupuesto. Nosotros te ayudamos a elegir el arreglo perfecto.</p>
-        <a className="button" href={whatsappLink} target="_blank"><MessageCircle size={20} /> WhatsApp +52 818 203 5437</a>
-      </section>
-
+     
 
       <footer>Blumen · Flores para graduaciones · Pedidos por WhatsApp</footer>
     </main>
