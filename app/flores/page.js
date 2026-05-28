@@ -17,7 +17,7 @@ const flowers = [
     price: "$2,790 MXN",
     image: "/WhatsApp Image 2026-05-27 at 17.20.28 (2).jpeg",
     description: "Rosas rojas con tulipanes rosas, intenso y especial.",
-    tier: "premium"
+    tier: "signature"
   },
   {
     name: "Maison Tulipe",
