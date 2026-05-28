@@ -67,25 +67,7 @@ export default function Home() {
     Ver colección
   </a>
 </div>
-            <a className="button" href={whatsappLink} target="_blank"><MessageCircle size={20} /> Hacer pedido</a>
-        <a
-  className="button secondary"
-  href="/flores"
-  style={{
-    backgroundColor: "#8B3A4A",
-    color: "white",
-    padding: "14px 28px",
-    borderRadius: "14px",
-    textDecoration: "none",
-    fontWeight: "600",
-    display: "inline-block",
-    marginLeft: "12px",
-    boxShadow: "0 4px 14px rgba(0,0,0,0.15)"
-  }}
->
-  Ver colección
-</a>
-</div>
+          
         <div className="heroImageBox">
           <img src="https://images.unsplash.com/photo-1558350315-8aa00e8e4590?auto=format&fit=crop&w=1100&q=80" alt="Ramo de flores" />
           <div className="priceCard">
