@@ -85,8 +85,7 @@ export default function Home() {
 >
   Ver colección
 </a>
-          </div>
-        </div>
+</div>
         <div className="heroImageBox">
           <img src="https://images.unsplash.com/photo-1558350315-8aa00e8e4590?auto=format&fit=crop&w=1100&q=80" alt="Ramo de flores" />
           <div className="priceCard">
