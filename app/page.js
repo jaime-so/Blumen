@@ -46,7 +46,23 @@ export default function Home() {
           <p>En Blumen creamos ramos y arreglos florales para graduaciones, regalos y momentos especiales que merecen sentirse inolvidables.</p>
           <div className="actions">
             <a className="button" href={whatsappLink} target="_blank"><MessageCircle size={20} /> Hacer pedido</a>
-            <a className="button secondary" href="#catalogo">Ver catálogo</a>
+        <a
+  className="button secondary"
+  href="/flores"
+  style={{
+    backgroundColor: "#8B3A4A",
+    color: "white",
+    padding: "14px 28px",
+    borderRadius: "14px",
+    textDecoration: "none",
+    fontWeight: "600",
+    display: "inline-block",
+    marginLeft: "12px",
+    boxShadow: "0 4px 14px rgba(0,0,0,0.15)"
+  }}
+>
+  Ver colección
+</a>
           </div>
         </div>
         <div className="heroImageBox">
