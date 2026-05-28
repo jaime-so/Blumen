@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 const whatsappNumber = "528182035437";
 
 const flowers = [
@@ -55,6 +56,7 @@ function getWhatsappLink(flower) {
 }
 
 export default function FloresPage() {
+  const [selectedFlower, setSelectedFlower] = useState(null);
   return (
     <main style={{
       background: "#faf7f4",
@@ -131,16 +133,18 @@ export default function FloresPage() {
               overflow: "hidden",
               background: "#efe6e4"
             }}>
-              <img
-                src={flower.image}
-                alt={flower.name}
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                  display: "block"
-                }}
-              />
+             <img
+  src={flower.image}
+  alt={flower.name}
+  onClick={() => setSelectedFlower(flower)}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    display: "block",
+    cursor: "zoom-in"
+  }}
+/>
             </div>
 
             <div style={{
@@ -205,6 +209,62 @@ export default function FloresPage() {
           </article>
         ))}
       </section>
-    </main>
+    {selectedFlower && (
+  <div
+    onClick={() => setSelectedFlower(null)}
+    style={{
+      position: "fixed",
+      inset: "0",
+      background: "rgba(0,0,0,0.82)",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      zIndex: "9999",
+      padding: "24px"
+    }}
+  >
+    <div
+      onClick={(e) => e.stopPropagation()}
+      style={{
+        position: "relative",
+        maxWidth: "950px",
+        width: "100%"
+      }}
+    >
+      <button
+        onClick={() => setSelectedFlower(null)}
+        style={{
+          position: "absolute",
+          top: "-16px",
+          right: "-16px",
+          width: "42px",
+          height: "42px",
+          borderRadius: "999px",
+          border: "none",
+          background: "white",
+          fontSize: "20px",
+          cursor: "pointer",
+          boxShadow: "0 10px 30px rgba(0,0,0,0.25)"
+        }}
+      >
+        ×
+      </button>
+
+      <img
+        src={selectedFlower.image}
+        alt={selectedFlower.name}
+        style={{
+          width: "100%",
+          maxHeight: "88vh",
+          objectFit: "contain",
+          borderRadius: "28px",
+          boxShadow: "0 20px 60px rgba(0,0,0,0.35)"
+        }}
+      />
+    </div>
+  </div>
+)}
+          
+          </main>
   );
 }
