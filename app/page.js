@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className="heroImageBox">
           <img
-            src="https://images.unsplash.com/photo-1558350315-8aa00e8e4590?auto=format&fit=crop&w=1200&q=80"
+            src="/combo3.jpeg"
             alt="Flores Blumen"
           />
 
