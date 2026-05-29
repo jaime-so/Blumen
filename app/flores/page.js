@@ -47,6 +47,24 @@ const flowers = [
     tier: "signature"
   },
   {
+  name: "Tulipe Rouge Signature",
+  price: "$2,090 MXN",
+  images: [
+    "/tulipanesrojos.jpeg",
+    "/tulipanesrojos2.jpeg",
+    "/tulipanesrojos3.jpeg",
+    "/tulipanesrojos4.jpeg",
+    "/tulipanesrojos5.jpeg",
+    "/tulipanesrojos6.jpeg",
+    "/tulipanesrojos7.jpeg",
+    "/tulipanesrojos8.jpeg",
+    "/tulipanesrojos9.jpeg"
+  ],
+  description:
+    "Tulipanes rojos intensos en una composición elegante y moderna. Un arreglo premium con mucha presencia, diseñado para sorprender y destacar.",
+  tier: "signature"
+},
+  {
     name: "Ramo Tulipán Blanco",
    price: "$1,990 MXN",
     images: [
