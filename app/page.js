@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className="heroImageBox">
           <img
-           src="/combo%203.jpeg"
+          src="/combo3.jpeg"
             alt="Flores Blumen"
           />
 
