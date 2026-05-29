@@ -7,7 +7,7 @@ const whatsappNumber = "528182035437";
 const flowers = [
   {
     name: "Orquídea Rosé Signature",
-    price: "$3,349 MXN",
+   price: "$2,999 MXN",
     images: [
       "/orquidias.jpeg",
       "/orqudias2.jpeg",
@@ -23,7 +23,7 @@ const flowers = [
   },
   {
     name: "Caja Rosé & Blanco",
-    price: "$2,720 MXN",
+   price: "$2,450 MXN",
     images: [
 
       "/rosasblancas2.jpeg",
@@ -37,7 +37,7 @@ const flowers = [
   },
   {
     name: "Caja Blanca con Lisianthus",
-    price: "$2,600 MXN",
+   price: "$2,350 MXN",
     images: [
       "/lisiantuscaja.jpeg",
       "/lisiantuscaja2.jpeg",
@@ -48,7 +48,7 @@ const flowers = [
   },
   {
     name: "Ramo Tulipán Blanco",
-    price: "$2,230 MXN",
+   price: "$1,990 MXN",
     images: [
       "/tulipanesblancos.jpeg",
       "/tulipanesblancos2.jpeg",
@@ -61,7 +61,7 @@ const flowers = [
   },
   {
     name: "Ramo Rojo con Lisianthus",
-    price: "$2,100 MXN",
+   price: "$1,890 MXN",
     images: [
       "/roja.lisiantus.jpeg",
       "/roja.lisiantus2.jpeg",
@@ -72,7 +72,7 @@ const flowers = [
   },
   {
     name: "Ramo Rosé Clásico",
-    price: "$1,149 MXN",
+  price: "$1,050 MXN",
     images: [
       "/ramorosa.jpeg",
       "/ramorosa2.jpeg",
