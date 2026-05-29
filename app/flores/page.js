@@ -9,50 +9,91 @@ const flowers = [
     name: "Orchid Lumière",
     price: "$2,961 MXN",
     images: [
-  "/WhatsApp Image 2026-05-27 at 17.20.28 (5).jpeg"
-],
+      "/orquidias.jpeg",
+      "/orqudias2.jpeg",
+      "/orqudias3.jpeg",
+      "/orqudias4.jpeg",
+      "/orqudias5.jpeg",
+      "/orqudias6.jpeg",
+      "/orqudias7.jpeg",
+      "/orqudias8.jpeg"
+    ],
     description: "Arreglo premium con rosas, anémona y orquídeas.",
     tier: "signature"
   },
   {
     name: "Scarlet Tulipe",
     price: "$2,790 MXN",
-    images: ["/WhatsApp Image 2026-05-27 at 17.20.28 (2).jpeg"],
+    images: [
+      "/roja.lisiantus.jpeg",
+      "/roja.lisiantus2.jpeg",
+      "/roja.lisiantus3.jpeg"
+    ],
     description: "Rosas rojas con tulipanes rosas, intenso y especial.",
     tier: "signature"
   },
   {
     name: "Maison Tulipe",
     price: "$2,220 MXN",
-    images: ["/WhatsApp Image 2026-05-27 at 17.20.28 (3).jpeg"],
+    images: [
+      "/tulipanesblancos.jpeg",
+      "/tulipanesblancos2.jpeg",
+      "/tulipanesblancos3.jpeg",
+      "/tulipanesblancos4.jpeg",
+      "/tulipanesblancos5.jpeg",
+      "/tulipanesblancos6.jpeg"
+    ],
     description: "Rosas con tulipanes blancos, suave y elegante.",
     tier: "signature"
   },
   {
     name: "Velvet Romance",
     price: "$2,100 MXN",
-    images: ["/WhatsApp Image 2026-05-27 at 17.20.28 (2).jpeg"],
+    images: [
+      "/ramorosa.jpeg",
+      "/ramorosa2.jpeg",
+      "/ramorosa3.jpeg",
+      "/ramorosa4.jpeg",
+      "/ramorosa5.jpeg",
+      "/ramorosa6.jpeg",
+      "/ramorosa7.jpeg"
+    ],
     description: "Rosas rojas con lisianthus, romántico y delicado.",
     tier: "classic"
   },
   {
     name: "Ivory Rosé",
     price: "$2,091 MXN",
-    images: ["/WhatsApp Image 2026-05-27 at 17.20.28 (4).jpeg"],
+    images: [
+      "/rosasblancas.jpeg",
+      "/rosasblancas2.jpeg",
+      "/rosasblancas3.jpeg",
+      "/rosasblancas4.jpeg",
+      "/rosasblancas5.jpeg",
+      "/rosasblancas6.jpeg"
+    ],
     description: "Rosas rosas y blancas en una combinación limpia.",
     tier: "classic"
   },
   {
     name: "Ivory Lisianthus",
     price: "$1,971 MXN",
-    images: ["/WhatsApp Image 2026-05-27 at 17.20.28.jpeg"],
+    images: [
+      "/lisiantuscaja.jpeg",
+      "/lisiantuscaja2.jpeg",
+      "/lisiantuscaja3.jpeg"
+    ],
     description: "Rosas blancas con lisianthus, fino y claro.",
     tier: "classic"
   },
   {
     name: "Rosé Élégance",
     price: "$1,140 MXN",
-    images: ["/WhatsApp Image 2026-05-27 at 17.20.28 (1).jpeg"],
+    images: [
+      "/combo1.jpeg",
+      "/combo2.jpeg",
+      "/combo3.jpeg"
+    ],
     description: "Ramo elegante de rosas rosas, delicado y limpio.",
     tier: "classic"
   }
