@@ -47,21 +47,21 @@ const flowers = [
     tier: "signature"
   },
   {
-  name: "Tulipe Rouge Signature",
+  name: "Tulipe Rosé Signature",
   price: "$2,090 MXN",
   images: [
-    "/tulipanesrojos.jpeg",
-    "/tulipanesrojos2.jpeg",
-    "/tulipanesrojos3.jpeg",
-    "/tulipanesrojos4.jpeg",
-    "/tulipanesrojos5.jpeg",
-    "/tulipanesrojos6.jpeg",
-    "/tulipanesrojos7.jpeg",
-    "/tulipanesrojos8.jpeg",
-    "/tulipanesrojos9.jpeg"
+    "/tulipanesrosa1.jpeg",
+    "/tulipanesrosa2.jpeg",
+    "/tulipanesrosa3.jpeg",
+    "/tulipanesrosa4.jpeg",
+    "/tulipanesrosa5.jpeg",
+    "/tulipanesrosa6.jpeg",
+    "/tulipanesrosa7.jpeg",
+    "/tulipanesrosa8.jpeg",
+    "/tulipanesrosa9.jpeg"
   ],
   description:
-    "Tulipanes rojos intensos en una composición elegante y moderna. Un arreglo premium con mucha presencia, diseñado para sorprender y destacar.",
+    "Tulipanes rosados en una composición delicada y elegante. Un diseño premium con tonos suaves, románticos y modernos que destacan por su presencia y detalle.",
   tier: "signature"
 },
   {
