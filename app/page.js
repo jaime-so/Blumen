@@ -85,7 +85,23 @@ export default function Home() {
         </a>
       </section>
 
-      <footer>Blumen · Flores para graduaciones · Pedidos por WhatsApp</footer>
+      <footer className="footer">
+  <div className="footerMain">
+    <span>Blumen Collection</span>
+    <span>·</span>
+    <span>Graduation Flowers</span>
+    <span>·</span>
+    <span>Monterrey, México</span>
+  </div>
+
+  <div className="footerCredits">
+    Made by Jaime Salazar, Mateo Zavala & Gabriel Lorenzen
+  </div>
+
+  <div className="footerPhoto">
+    Photography by @hcg.fotografia
+  </div>
+</footer>
     </main>
   );
 }
