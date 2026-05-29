@@ -25,7 +25,7 @@ const flowers = [
     name: "Caja Rosé & Blanco",
     price: "$2,720 MXN",
     images: [
-      "/rosasblancas.jpeg",
+
       "/rosasblancas2.jpeg",
       "/rosasblancas3.jpeg",
       "/rosasblancas4.jpeg",
