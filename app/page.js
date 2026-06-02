@@ -1,91 +1,125 @@
-import Link from "next/link";
+import { Flower2, Heart, Gift, MapPin, Sparkles, ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#f7f1e8] text-[#1f1a17]">
-      <section className="relative min-h-screen flex items-center px-6 md:px-16 overflow-hidden">
-        <div className="absolute inset-0 opacity-40">
+    <main>
+      <header className="header">
+        <div className="logoWrap">
+          <div className="iconCircle"><Flower2 size={22} /></div>
+          <div>
+            <h1 className="logo">BLUMEN</h1>
+            <p className="tagline">graduation flowers</p>
+          </div>
+        </div>
+
+        <a className="button small" href="/flores">
+          Ver colección
+        </a>
+      </header>
+
+      <section className="hero">
+        <div className="heroText">
+          <div className="pill">
+            <Sparkles size={16} /> Flores para momentos especiales
+          </div>
+
+          <h2>Arreglos florales elegantes para celebrar lo inolvidable.</h2>
+
+          <p>
+            En Blumen diseñamos ramos y arreglos florales con un estilo romántico,
+            delicado y premium para graduaciones, regalos y celebraciones especiales.
+          </p>
+
+          <div className="actions">
+            <a className="button" href="/flores">
+              Explorar colección <ArrowRight size={18} />
+            </a>
+    <a
+  className="button secondary"
+  href="https://wa.me/528182035437?text=Hola%2C%20estoy%20viendo%20los%20arreglos%20de%20Blumen%20y%20me%20gustar%C3%ADa%20pedir%20informaci%C3%B3n."
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Hablar por WhatsApp
+</a>
+
+<a
+  className="button secondary"
+  href="https://www.instagram.com/theblumen.co/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Instagram @theblumen.co
+</a>
+          </div>
+        </div>
+ 
+        <div className="heroImageBox">
           <img
-            src="/tulipanes-rosas/1.jpg"
-            alt="Blumen flowers"
-            className="w-full h-full object-cover"
+          src="https://raw.githubusercontent.com/jaime-so/Blumen/main/combo3.jpeg"
+            alt="Flores Blumen"
           />
-        </div>
 
-        <div className="absolute inset-0 bg-gradient-to-r from-[#f7f1e8] via-[#f7f1e8]/85 to-transparent" />
-
-        <div className="relative z-10 max-w-2xl">
-          <p className="uppercase tracking-[0.35em] text-xs mb-6">
-            Blumen Collection
-          </p>
-
-          <h1 className="font-serif text-6xl md:text-8xl leading-none mb-8">
-            Graduation flowers, redefined.
-          </h1>
-
-          <p className="text-lg md:text-xl max-w-md mb-10 text-[#5f5149]">
-            Arreglos elegantes para momentos que merecen recordarse.
-          </p>
-
-          <Link
-            href="/flores"
-            className="inline-block rounded-full border border-[#1f1a17] px-8 py-4 text-sm uppercase tracking-[0.25em] hover:bg-[#1f1a17] hover:text-[#f7f1e8] transition"
-          >
-            Ver catálogo
-          </Link>
-        </div>
-      </section>
-
-      <section className="px-6 md:px-16 py-24">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div>
-            <p className="uppercase tracking-[0.3em] text-xs mb-5">
-              Made for big moments
-            </p>
-            <h2 className="font-serif text-5xl md:text-6xl mb-6">
-              Flores con presencia, estilo y detalle.
-            </h2>
-            <p className="text-[#5f5149] text-lg leading-relaxed">
-              Diseñamos arreglos para graduaciones, entregas especiales y
-              celebraciones que necesitan sentirse únicas.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 gap-4">
-            <img
-              src="/tulipanes-rojos/1.jpg"
-              className="rounded-t-full h-[420px] w-full object-cover"
-              alt="Tulipanes rojos"
-            />
-            <img
-              src="/tulipanes-rosas/2.jpg"
-              className="rounded-b-full h-[420px] w-full object-cover mt-16"
-              alt="Tulipanes rosas"
-            />
+          <div className="priceCard">
+            <span>Colección floral</span>
+            <strong>Diseños por pedido</strong>
           </div>
         </div>
       </section>
 
-      <section className="px-6 md:px-16 pb-24">
-        <div className="border-t border-[#d8cabe] pt-16 grid md:grid-cols-4 gap-10 text-center">
-          <div>
-            <h3 className="font-serif text-3xl mb-3">01</h3>
-            <p>Escoge tu arreglo</p>
-          </div>
-          <div>
-            <h3 className="font-serif text-3xl mb-3">02</h3>
-            <p>Mándanos WhatsApp</p>
-          </div>
-          <div>
-            <h3 className="font-serif text-3xl mb-3">03</h3>
-            <p>Coordinamos entrega</p>
-          </div>
-          <div>
-            <h3 className="font-serif text-3xl mb-3">04</h3>
-            <p>Recibe tu ramo</p>
-          </div>
+      <section className="features">
+        <div className="feature">
+          <Heart />
+          <h3>Diseño romántico</h3>
+          <p>Arreglos suaves, elegantes y pensados para regalar.</p>
+        </div>
+
+        <div className="feature">
+          <Gift />
+          <h3>Personalizable</h3>
+          <p>Elige el arreglo ideal según la ocasión y el estilo que buscas.</p>
+        </div>
+
+        <div className="feature">
+          <MapPin />
+          <h3>Entrega coordinada</h3>
+          <p>Coordinamos contigo horario y lugar para entregar tu arreglo puntualmente.</p>
         </div>
       </section>
+
+      <section className="premiumSection">
+        <p className="sectionLabel">Blumen Collection</p>
+
+        <h2>Conoce nuestros arreglos disponibles.</h2>
+
+        <p>
+          En la colección puedes ver cada diseño, precio y pedir directamente el arreglo
+          que más te guste por WhatsApp.
+        </p>
+
+        <a className="button secondary" href="/flores">
+          Ver catálogo completo <ArrowRight size={18} />
+        </a>
+      </section>
+
+      <footer className="footer">
+  <div className="footerMain">
+    <span>Blumen Collection</span>
+    <span>·</span>
+    <span>Graduation Flowers</span>
+    <span>·</span>
+    <span>Monterrey, México</span>
+  </div>
+
+  <div className="footerCredits">
+    Made by Jaime Salazar, Mateo Zavala & Gabriel Lorenzen
+  </div>
+
+  <div className="footerPhoto">
+    Photography by @hcg.fotografia
+  </div>
+</footer>
     </main>
   );
+}
 }
