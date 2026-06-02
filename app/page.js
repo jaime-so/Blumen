@@ -34,6 +34,23 @@ export default function Home() {
             <a className="button" href="/flores">
               Explorar colección <ArrowRight size={18} />
             </a>
+    <a
+  className="button secondary"
+  href="https://wa.me/528182035437?text=Hola%2C%20estoy%20viendo%20los%20arreglos%20de%20Blumen%20y%20me%20gustar%C3%ADa%20pedir%20informaci%C3%B3n."
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Hablar por WhatsApp
+</a>
+
+<a
+  className="button secondary"
+  href="https://www.instagram.com/theblumen.co/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Instagram @theblumen.co
+</a>
           </div>
         </div>
  
